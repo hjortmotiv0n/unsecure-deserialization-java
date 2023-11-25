@@ -17,7 +17,7 @@ public class SerializationExample {
     }
     public static void main(String[] args) {
         SerializationExample example = new SerializationExample();
-        Person person = new Person("Bob", 30);
+        Person person = new Person("Bob", 31);
         try {
             // Serialize the person object to a byte array
             byte[] serializedData = example.serialize(person);
